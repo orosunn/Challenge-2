@@ -1,0 +1,66 @@
+body {
+    font-family: Arial;
+}
+
+.main-heading {
+    background: silver;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.title {
+    background: aquamarine;
+}
+
+.page-links {
+    color: aquamarine;
+}
+
+.banner {
+    background-image: url(/Challenge-2/assets/images/portfoliobanner.jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 30px;
+    padding-bottom: 100px;
+    color: rgb(46, 110, 194);
+}
+
+.about-me-title {
+    font-size: xx-large;
+}
+
+.my-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 30px;
+    padding-bottom: 100px;
+    color: rgb(46, 110, 194);
+}
+
+.work-title {
+    font-size: xx-large;
+}
+
+.other-work {
+    display: flex;
+}
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 30px;
+    color: rgb(46, 110, 194);
+}
+
+.contact-title {
+    font-size: xx-large;
+}
